@@ -81,7 +81,7 @@ Ler com **muita ATENÇÃO**, e em caso de dúvida me questionem.
 - resolveu, se der tempo, não poderia resolver da  melhor forma
 - não desista, nunca, jamais ... desistiu, volte a insistir
 
-    ![Nunca DEsista](imgs/AA_NuncaDesista.png "Nunca desista. Sapo resistindo bravamente para não ser engolido pela cegonha")
+    ![Nunca Desista](imgs/AA_NuncaDesista.png "Nunca desista. Sapo resistindo bravamente para não ser engolido pela cegonha")
 
 - divisão e conquista ... subdividir em rotinas
 - Etapas: Entrada / Processo / Saída
@@ -127,22 +127,20 @@ ATENÇÃO: lembrem de irem instalando o "Ambiente de Desenvolvimento Prático" .
 #### Enunciado A
 As vezes o enunciado pode ter "gorduras" ...
 
-    Era uma vez, uma pessoa que estava na praia. 
-    Esta pessoa conhecia um professor e este professor tinha um problema para resolver. 
-    O seu problema era que ele tinha que considerar uma situação que ele poderia ter 3 
-    notas de um aluno e com elas poderia calcular a média deste aluno.
-
-As vezes pode vir descrita de uma forma mais resumida
-
-    Um professor deseja calcular a média de um aluno. O professor tem o nome
-    e as 3 notas do aluno e a média deve ser calculada de forma aritmética.​
+    Era uma vez, uma pessoa que estava na praia. Esta pessoa conhecia um professor e este professor tinha um problema para resolver. O seu problema era que ele tinha que considerar uma situação que ele poderia ter 3 notas de um aluno e com elas poderia calcular a média deste aluno.
 
 Ou ainda um enunciado "magrinho", mas as vezes se tem situações com falta de informações que não permitem solucionar o problema ... no caso, quantas notas para calcular a média?
 
-    Considerando que um professor tem notas de um aluno, calcule a média do aluno.
+    Considerando que um professor tem notas de um aluno, calcule média do aluno.
+
+Uma aceitável e se ter uma descrição sucinta, mas que tenha todas as informações necessárias para poder resolver o problema.
+
+    Um professor deseja calcular a média de um aluno. O professor tem o nome e as 3 notas do aluno e a média deve ser calculada de forma aritmética.​
 
 Então vamos para primeira etapa:
 - entender o problema​: Se pergunte, você consegue resolver este problema sem o uso do computador? Caso não consiga, bem provável é porque você não entendeu o enunciado ou falta informações, conhecimento, de como resolver o problema.
+
+![Calculo da média aritmética](imgs/AA_EnunciadoA.jpg "Calculo da média aritmética")
 
 Uma forma de ajudar a entender o problema é extrair do enunciado:
   - as entradas
@@ -151,10 +149,14 @@ Uma forma de ajudar a entender o problema é extrair do enunciado:
 
 **Então tente separar em:**
 
-__ "Enrolação" __ 
+__ Desnecessário __ 
 
     Um professor deseja 
     O professor tem o nome
+
+__ Não usado __ 
+
+    nome
 
 __ Entrada __: ter as 3 notas
 
@@ -194,26 +196,38 @@ Mais um problema a ser resolvido ...
 Então vamos para primeira etapa:
 - entender o problema​: faça o cálculo na "mão". Use os valores de testes (abaixo) para verificar se seu calculo está certo.
 
+![Calculo da área de um retângulo](imgs/AA_EnunciadoB.jpg "Calculo da área de um retângulo")
+
 **Então tente separar em:**
 
-__ "Enrolação" __ 
+__ Desnecessário __ 
 
-    |
+    Modele a solução de um problema para
+    de uma sala 
+    Considere que as medidas estão expressas em metros.
 
-__ Entrada __
+__ Não usado __ 
 
-    |
+    metros
 
- __ Processo __ 
+__ Entrada __: ter a largura e altura
 
-    |
+    largura = 3
+    altura = 7
+
+ __ Processo __: calcular a área  retangular 
+
+    area = largura x altura
 
  __ Saída __ 
 
-    |
+    escrever(area)
 
 
-  - descrever solução formalmente
+ __ descrever solução formalmente __ 
+
+    código em Java
+
 
   - testar
 
