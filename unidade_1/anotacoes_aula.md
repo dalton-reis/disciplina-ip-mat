@@ -149,38 +149,38 @@ Uma forma de ajudar a entender o problema é extrair do enunciado:
 
 **Então tente separar em:**
 
-__ Desnecessário __ 
+__ Desnecessário __
 
     Um professor deseja 
     O professor tem o nome
 
-__ Não usado __ 
+__ Não usado __
 
     nome
 
-__ Entrada __: ter as 3 notas
-
+__ Entrada __
+    // ter as 3 notas
     Nota1 = 7
     Nota2 = 8
     Nota3 = 9
 
- __ Processo __: Calcular a média
-     
+__ Processo __
+    // Calcular a média
     média = (nota1 + nota2 + nota3) / 3
 
- __ Saída __: escrever a média
-
+__ Saída __
+    // escrever a média
     escrever(média)
 
 Bom, depois destas etapas vamos para:
   - descrever solução formalmente
  .. vou mostrar como é no nosso ambiente
 
-__ descrever solução formalmente __ 
+__ descrever solução formalmente __
 
     código em Java
 
- 
+
 E por fim, e muito importante
   - testar: Para testar se precisa ter valores de **entrada**, e principalmente saber quais valores de **saída** serão gerados com estas **entradas**.
 
@@ -215,13 +215,13 @@ __ Não usado __
 
     metros
 
-__ Entrada __: ter a largura e altura
-
+__ Entrada __
+    /  ter a largura e altura
     largura = 3
     altura = 7
 
- __ Processo __: calcular a área  retangular 
-
+ __ Processo __
+    // calcular a área  retangular 
     area = largura x altura
 
  __ Saída __ 
