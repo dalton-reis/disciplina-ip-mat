@@ -176,6 +176,11 @@ Bom, depois destas etapas vamos para:
   - descrever solução formalmente
  .. vou mostrar como é no nosso ambiente
 
+__ descrever solução formalmente __ 
+
+    código em Java
+
+ 
 E por fim, e muito importante
   - testar: Para testar se precisa ter valores de **entrada**, e principalmente saber quais valores de **saída** serão gerados com estas **entradas**.
 
