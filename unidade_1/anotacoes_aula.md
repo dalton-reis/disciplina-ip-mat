@@ -153,20 +153,22 @@ Uma forma de ajudar a entender o problema é extrair do enunciado:
 
 __ "Enrolação" __ 
 
-    |
+    Um professor deseja 
+    O professor tem o nome
 
-__ Entrada __
+__ Entrada __: ter as 3 notas
 
-    |
+    Nota1 = 7
+    Nota2 = 8
+    Nota3 = 9
 
- __ Processo __ 
+ __ Processo __: Calcular a média
+     
+    média = (nota1 + nota2 + nota3) / 3
 
-    |
+ __ Saída __: escrever a média
 
- __ Saída __ 
-
-    |
-
+    escrever(média)
 
 Bom, depois destas etapas vamos para:
   - descrever solução formalmente
