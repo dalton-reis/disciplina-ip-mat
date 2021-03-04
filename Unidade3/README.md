@@ -4,7 +4,7 @@
 > Videoaula 3_VideoAula-1 (27:27):
 > [https://web.microsoftstream.com/video/89f89c67-9576-4360-bbbe-824544b76e6d](https://web.microsoftstream.com/video/89f89c67-9576-4360-bbbe-824544b76e6d
 > "primeira videoaula da unidade 3")<br>
-> Videoaula 1_VideoAula-3 (27:27): [link
+> Videoaula 3_VideoAula-1 (27:27): [link
 > alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EexdwuO8TYFOjqLwiIFsk-IB19zRU8PVB3l3eLQobAniRQ?e=RxPPdf
 > "link alternativo da primeira videoaula da unidade 3")
 > <br>
@@ -141,10 +141,10 @@ public class Principal {
 ----------
 
 ##  Introdução a Linguagem de Programação
-> Videoaula 3_VideoAula-1 (29:18):
+> Videoaula 3_VideoAula-2 (29:18):
 > [https://web.microsoftstream.com/video/26b0c4f5-a13d-4d03-95ed-cfeb06c3ed41](https://web.microsoftstream.com/video/26b0c4f5-a13d-4d03-95ed-cfeb06c3ed41
 > "primeira videoaula da unidade 3")<br>
-> Videoaula 1_VideoAula-3 (29:18): [link
+> Videoaula 3_VideoAula-2 (29:18): [link
 > alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/ERMgPFCa4U1Gv3qfgMUkXTQB41NigTaNnEBotCUX63uBAw?e=BLavhh
 > "link alternativo da primeira videoaula da unidade 3")
 > <br>
