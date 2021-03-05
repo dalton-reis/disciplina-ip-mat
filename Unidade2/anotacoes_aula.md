@@ -56,7 +56,24 @@ Nomes podem conter letras, números e _. Não podem conter caracteres especiais,
 ![Testes](imgs/img_formularioTestes.png "Testes")
 
 #### Algoritmo:
-![Algoritmo](imgs/img_formularioFluxograma.png) "Algoritmo")
+
+<div class="hidden">
+
+```
+@startuml img_formularioFluxograma
+	title URI_1001
+	start
+		:ler(largura);
+		:ler(comprimento);
+		:area = largura * comprimento;
+		:escrever(area);
+	stop
+@enduml
+
+```
+</div>
+
+![Algoritmo](imgs/img_formularioFluxograma.svg "Algoritmo")
 
 #### Teste de Mesa:
 ![Teste de mesa](imgs/img_formularioTesteMesa.png "Teste de Mesa")
@@ -69,5 +86,9 @@ Nomes podem conter letras, números e _. Não podem conter caracteres especiais,
  ### Problema 1 (URI_1002):
     A fórmula para calcular a área de uma circunferência é definida como A = π x R². Considerando este problema que π = 3,1415. Calcule a área usando a fórmula fornecida na descrição do problema.
 
+- Entendendo o problema
+  
+- fluxograma
+  
 ### Problema 2 (URI_1008):
     Escreva um programa que leia o número do funcionário, o número de horas trabalhadas em um mês e o valor que ele recebeu por hora. Este valor sempre será um valor inteiro. Imprima o número do funcionário e o salário que ele receberá no final do mês.

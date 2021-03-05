@@ -91,6 +91,8 @@ Ler com **muita ATENÇÃO**, e em caso de dúvida me questionem.
 ##### Codificação: linguagem de programação
 - Exemplo, algo parecido com formalismo usado na Matemática (mas melhor 😉 )
 
+  <kbd>
+
   ![\Large 3+4=x](https://latex.codecogs.com/svg.latex?\Large&space;3+4=x)<br>
   ![\Large 4+3=x](https://latex.codecogs.com/svg.latex?\Large&space;4+3=x)<br><br>
 
@@ -100,14 +102,59 @@ Ler com **muita ATENÇÃO**, e em caso de dúvida me questionem.
   
   ![\Large \Large&space;1+4+3-1+\sqrt{9}=a](https://latex.codecogs.com/svg.latex?\Large&space;1+4+3-1+\sqrt{9}=a)<br>
   ![\Large \Large&space;a+\int_{a}^{b}dx=z](https://latex.codecogs.com/svg.latex?\Large&space;a+\int_{a}^{b}dx=z)<br>
+  
+  </kbd>
 
 - Exemplo, na Computação, uma representação gráfica:
   - Fluxograma de uma rotina condicional simples
   
-![Diagrama de estados de uma rotina condicional simples](imgs/AA_Exemplo_1_Condicional_Simples.png "Diagrama de estados de uma rotina condicional simples")
+<div hidden>
+
+```
+@startuml AA_Exemplo_1_Condicional_Simples
+  (*) --> "idade = 19" 
+  if "(idade >= 18)" then
+    ->[true] "escrever(Adulto)"
+    --> ===REDIRECT_CHECK===  
+  else
+    -->[false] ===REDIRECT_CHECK===
+  endif
+  --> "escrever(..FIM..)"
+  -->(*)
+@enduml
+```
+</div>
+
+  ![Diagrama de estados de uma rotina condicional simples](imgs/AA_Exemplo_1_Condicional_Simples.svg "Diagrama de estados de uma rotina condicional simples")
 
   - Fluxograma de uma rotina para ordenar três valores
-![Diagrama de estados de uma rotina para ordenar três valores](imgs/AA_Exemplo_99_ordenarTresValores.png "Diagrama de estados de uma rotina para ordenar três valores")
+
+  <div hidden>
+
+  ```
+  @diagramação Achar menor valor entre três valores:
+  @startuml AA_Exemplo_99_ordenarTresValores
+    start
+      :ler(valor1)
+      ler(valor2)
+      ler(valor3);
+      :valorMenor;
+      if ((valor1 <= valor2) **E** (valor1 <= valor3)) then (sim)
+        :valorMenor = valor1;
+      else (não)
+        if ((valor2 <= valor1) **E** (valor2 <= valor3)) then (sim)
+          :valorMenor = valor2;
+        else (não)
+          :valorMenor = valor3;
+        endif
+      endif
+    stop
+    :escrever("menor:" + valorMenor);
+  @enduml
+  ```
+  </div>
+
+  ![Diagrama de estados de uma rotina para ordenar três valores](imgs/AA_Exemplo_99_ordenarTresValores.svg "Diagrama de estados de uma rotina para ordenar três valores")
 
 ## Como fica na prática
 - irei demonstrar usando o nosso ambiente de desenvolvimento (Java+VSCode), mas não se preocupem ... hoje não iremos estudar este ambiente ... é só para demonstrar o processo de **Solução de Problemas**:
