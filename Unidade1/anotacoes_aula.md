@@ -25,7 +25,7 @@
         Grupos de Pesquisa: GCG e TecEdu
         Oportunidade para fazer pesquisa: ser bolsista
 
-- Gostou
+- Meu gosto tecnológico ..
   
         Curiosidade em como as coisas acontecem
         Brinquedinhos tecnológicos
