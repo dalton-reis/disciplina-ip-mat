@@ -12,7 +12,7 @@ public class URI_1001 {
     int X = A + B;
 
     // Saída
-    System.out.println("X " + X);
+    System.out.println("X = " + X);
 
     teclado.close();
   }
