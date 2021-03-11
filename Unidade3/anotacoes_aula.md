@@ -18,9 +18,9 @@
 
 ### Lista de exercícios
 - [x] _CaixaAreia_3.java
-- [ ] _Debug.java
-- [ ] URI_1001.java
-- [ ] URI_1002.java
+- [x] _Debug.java
+- [x] URI_1001.java
+- [x] URI_1002.java
 - [ ] URI_1004.java
 - [ ] URI_1005.java
 - [ ] URI_1007.java
