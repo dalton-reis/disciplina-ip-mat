@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class URI_1001 {
   public static void main(String[] args) {
-    Scanner teclado = new Scanner (System.in);
+    Scanner teclado = new Scanner(System.in);
 
     // Entrada
     int A = teclado.nextInt();
