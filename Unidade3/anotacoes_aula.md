@@ -37,7 +37,7 @@
 ## Rabiscos do processo de entender os enunciados
 
 #### URI_1019
-![Rabiscos do problma URI 1019](imgs/img_URI_1019.png "Rabiscos do problma URI 1019")
+![Rabiscos do problema URI 1019](imgs/img_URI_1019.png "Rabiscos do problema URI 1019")
 
 ------
 
