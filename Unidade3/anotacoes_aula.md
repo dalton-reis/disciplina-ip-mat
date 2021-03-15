@@ -31,7 +31,7 @@
 - [ ] URI_1015.java
 - [ ] URI_1016.java
 - [ ] URI_1018.java
-- [ ] URI_1019.java
+- [x] URI_1019.java
 - [ ] URI_1021.java
 
 ## Rabiscos do processo de entender os enunciados
