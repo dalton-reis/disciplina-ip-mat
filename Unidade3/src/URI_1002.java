@@ -1,22 +1,20 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class URI_1002 {
-  public static void main(String[] args) {
-    Scanner teclado = new Scanner(System.in);
-    DecimalFormat df_4 = new DecimalFormat("0.0000");
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
 
-    // Entrada
-    double raio = teclado.nextDouble();
-    double pi = 3.14159;
+		// Entrada
+		double raio = teclado.nextDouble();
 
-    // Processo
-    // double area = pi * (raio * raio);
-    double area = pi * Math.pow(raio,2);
+		// Processo
+		double pi = 3.14159;
+		double area = pi * Math.pow(raio, 2);
 
-    // Saída
-    System.out.println("A=" + df_4.format(area));
-
-    teclado.close();
-  }
+		// Saída
+		DecimalFormat F = new DecimalFormat("0.0000");
+		System.out.println("A=" + F.format(area));
+		teclado.close();
+	}
 }
